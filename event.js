@@ -1,8 +1,8 @@
 $(window).on({
   'load': () =>{
-    console.log('loadされました');
+    console.log('loadイベントが発生しました');
   },
   'scroll': ()=>{
-    console.log('scrollしました');
+    console.log('scrollイベントが発生しました');
   }
 });
